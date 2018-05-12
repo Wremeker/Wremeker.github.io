@@ -1,1 +1,10 @@
-!function(){function r(e,t,n){function o(u,f){if(!t[u]){if(!e[u]){var c="function"==typeof require&&require;if(!f&&c)return c(u,!0);if(i)return i(u,!0);var s=new Error("Cannot find module '"+u+"'");throw s.code="MODULE_NOT_FOUND",s}var l=t[u]={exports:{}};e[u][0].call(l.exports,function(r){var t=e[u][1][r];return o(t||r)},l,l.exports,r,e,t,n)}return t[u].exports}for(var i="function"==typeof require&&require,u=0;u<n.length;u++)o(n[u]);return o}return r}()({1:[function(r,e,t){"use strict";console.log("hello world!"),window.onscroll=function(){var r=window.pageYOffset,e=document.getElementById("header"),t=e.offsetTop;r>t?e.classList.add("sticky"):e.classList.remove("sticky")}},{}]},{},[1]);
+window.onscroll = function() {
+  let scrolled = window.pageYOffset;
+  let header = document.getElementById('header');
+  let sticky = header.offsetTop;
+  if (scrolled > sticky) {
+    header.classList.add("sticky");
+  }else{
+    header.classList.remove("sticky");
+  }
+}
