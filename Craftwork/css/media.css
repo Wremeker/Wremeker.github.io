@@ -1,0 +1,27 @@
+/*==========  Desktop First  ==========*/
+@media only screen and (max-width: 1200px) {
+  header .header__top-header-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 45px 0; }
+    header .header__top-header-content__logo {
+      margin-bottom: 30px; }
+    header .header__top-header-content__menu {
+      margin-bottom: 30px; }
+    header .header__top-header-content__buttons {
+      margin-left: 0; }
+  header .header__content h1 {
+    font-size: 2.5rem; } }
+
+@media only screen and (max-width: 768px) {
+  /**/ }
+
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+@media only screen and (max-width: 320px) {
+  /**/ }

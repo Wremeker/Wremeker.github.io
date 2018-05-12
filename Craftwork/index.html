@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta meta name="description" content="">
+    <meta name="imagetoolbar" content="no">
+    <meta name="msthemecompatible" content="no">
+    <meta name="cleartype" content="on">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="google" value="notranslate">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="msapplication-navbutton-color" content="#ffffff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link sizes="57x57" href="/apple-touch-icon-57x57.png" rel="apple-touch-icon">
+    <link sizes="114x114" href="/apple-touch-icon-114x114.png" rel="apple-touch-icon">
+    <link sizes="72x72" href="/apple-touch-icon-72x72.png" rel="apple-touch-icon">
+    <link sizes="144x144" href="/apple-touch-icon-144x144.png" rel="apple-touch-icon">
+    <link sizes="60x60" href="/apple-touch-icon-60x60.png" rel="apple-touch-icon">
+    <link sizes="120x120" href="/apple-touch-icon-120x120.png" rel="apple-touch-icon">
+    <link sizes="76x76" href="/apple-touch-icon-76x76.png" rel="apple-touch-icon">
+    <link sizes="152x152" href="/apple-touch-icon-152x152.png" rel="apple-touch-icon">
+    <link sizes="180x180" href="/apple-touch-icon-180x180.png" rel="apple-touch-icon">
+    <link sizes="192x192" href="/favicon-192x192.png" rel="icon" type="image/png">
+    <link sizes="160x160" href="/favicon-160x160.png" rel="icon" type="image/png">
+    <link sizes="96x96" href="/favicon-96x96.png" rel="icon" type="image/png">
+    <link sizes="16x16" href="/favicon-16x16.png" rel="icon" type="image/png">
+    <link sizes="32x32" href="/favicon-32x32.png" rel="icon" type="image/png">
+   <style>
+     @font-face{font-family:"Raleway-Light";font-style:normal;font-weight:normal;src:url("../fonts/Raleway-Light.ttf") format("truetype")}@font-face{font-family:"Raleway-Medium";font-style:normal;font-weight:normal;src:url("../fonts/Raleway-Medium.ttf") format("truetype")}@font-face{font-family:"Raleway-SemiBold";font-style:normal;font-weight:normal;src:url("../fonts/Raleway-SemiBold.ttf") format("truetype")}@font-face{font-family:"Raleway-Regular";font-style:normal;font-weight:normal;src:url("../fonts/Raleway-Regular.ttf") format("truetype")}*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;line-height:1.8em}*::-webkit-input-placeholder{color:#333;opacity:1}*:-moz-placeholder{color:#333;opacity:1}*::-moz-placeholder{color:#333;opacity:1}*:-ms-input-placeholder{color:#333;opacity:1}.clearfix{display:table;content:''}.icon{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex}p{font:1.125rem "Raleway-Light";line-height:1.75rem;color:#222328;opacity:.8}a{text-decoration:none;color:#fff}a:hover,a:focus,a:visited{text-decoration:none;color:#fff}h1{font:3.75rem "Raleway-Light"}h2{font:2rem "Raleway-Medium";line-height:2.625rem}h3{font:0.875rem "Raleway-Medium";line-height:1.75rem}h4{color:#fff;font:1.625rem "Raleway-Light";line-height:1.8em}h5{font:1.375rem "Raleway-Regular";color:#333}h6{font:0.875rem "Raleway-Medium";text-transform:uppercase}.green-button{background-color:#1be938;max-width:100%;color:#141414;letter-spacing:2px;border:none;outline:none;padding:21px 48px;display:inline-block;color:#000;font:0.75rem "Raleway-Medium";text-transform:uppercase;-webkit-border-radius:45px;border-radius:45px;-webkit-box-shadow:0px 20px 40px 0px rgba(27, 233, 56, 0.2), 0px 10px 20px 0px rgba(27, 233, 56, 0.2), 0px 30px 60px 0px rgba(27, 233, 56, 0.2);box-shadow:0px 20px 40px 0px rgba(27, 233, 56, 0.2), 0px 10px 20px 0px rgba(27, 233, 56, 0.2), 0px 30px 60px 0px rgba(27, 233, 56, 0.2)}.green-button:hover{background:#15db31;-webkit-box-shadow:none;box-shadow:none;-webkit-transition:0.3s;transition:0.3s}@media only screen and (max-width: 600px){.green-button{font:0.625rem "Raleway-Medium"}}.black-gutton{font:0.875em "Raleway-SemiBold";color:#fff;border:none;-webkit-border-radius:45px;border-radius:45px;background-color:#141414;padding:20px 45px;cursor:pointer;text-transform:uppercase}.black-gutton:hover{background:#212121;-webkit-transition:0.3s;transition:0.3s}.button-trans{font:0.875rem "Raleway-SemiBold";color:#fff;background:transparent;text-transform:uppercase;-webkit-border-radius:45px;border-radius:45px;margin-top:80px;padding:20px 40px;border:2px solid #fff}.button-trans:hover{color:#000;background:#fff;-webkit-transition:0.3s;transition:0.3s}.white-button{font:1rem "Raleway-SemiBold";color:#000;background:#fff;border:none;-webkit-border-radius:45px;border-radius:45px;letter-spacing:1.2px;outline:none;padding:24px 45px;text-transform:uppercase;cursor:pointer}.white-button:hover{background:transparent;-webkit-box-shadow:0 0 0 2px #fff;box-shadow:0 0 0 2px #fff;color:#fff;-webkit-transition:0.5s;transition:0.5s}.responsive-img{max-width:100%}.container{max-width:1170px;margin:0 auto;padding:0 15px}@-webkit-keyframes "intro"{0%{opacity:0;-webkit-transform:translateY(40px);transform:translateY(40px);}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0);}}@keyframes "intro"{0%{opacity:0;-webkit-transform:translateY(40px);transform:translateY(40px);}100%{opacity:1;-webkit-transform:translateY(0);transform:translateY(0);}}@-webkit-keyframes "finger"{0%{opacity:1;}100%{opacity:0;-webkit-transform:translateY(20px);transform:translateY(20px);}}@keyframes "finger"{0%{opacity:1;}100%{opacity:0;-webkit-transform:translateY(20px);transform:translateY(20px);}}header{background:url("img/head-bg.png");background-size:cover;position:relative;padding:95px 0}header .header__opacity{position:absolute;top:0;left:0;background:#000;opacity:.80;width:100%;z-index:1}header .header__top-header-content{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;padding:0 0 140px 0}header .header__top-header-content__logo{position:relative;z-index:2;font:1.25em "Raleway-Medium";color:#fff;line-height:2.125em}header .header__top-header-content__menu{position:relative;z-index:2}header .header__top-header-content__menu nav ul{padding:0}header .header__top-header-content__menu nav ul li{display:inline;padding-left:35px}header .header__top-header-content__menu nav ul li a{font:1em "Raleway-Light";color:#fff;opacity:.7;line-height:2.75em}header .header__top-header-content__menu nav ul li a:hover{opacity:1}header .header__top-header-content__buttons{position:relative;z-index:2;margin-left:auto}header .header__top-header-content__buttons .btn{font:0.8125em "Raleway-SemiBold";-webkit-border-radius:45px;border-radius:45px;padding:14px 30px;border:none;cursor:pointer}header .header__top-header-content__buttons .trans{color:#fff;background:transparent;border:1px solid rgba(255, 255, 255, 0.5);text-transform:uppercase;outline:none;margin-right:20px}header .header__top-header-content__buttons .trans:hover{color:#000;background:#fff;-webkit-transition:0.4s;transition:0.4s}header .header__top-header-content__buttons .white{color:#000;background:#fff;text-transform:uppercase;border:1px solid rgba(255, 255, 255, 0.5);outline:none}header .header__top-header-content__buttons .white:hover{color:#fff;background:transparent;-webkit-transition:0.5s;transition:0.5s}header .header__content{position:relative;z-index:2}header .header__content-wrapper{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;text-align:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}header .header__content-wrapper__mouse{text-align:center;position:relative}header .header__content-wrapper__mouse .mouse{width:24px;height:40px;-webkit-border-radius:15px;border-radius:15px;border:2px solid rgba(255, 255, 255, 0.8);text-align:center;-webkit-animation:intro 1s;animation:intro 1s;position:absolute;left:50%;top:10px}header .header__content-wrapper__mouse .scroll{width:2px;height:8px;margin:6px auto;-webkit-border-radius:4px;border-radius:4px;background:#fff;-webkit-animation:finger 1s infinite;animation:finger 1s infinite}header .header__content-wrapper h1{margin-bottom:60px;color:#fff;padding:0 20%}header .header__content-wrapper h4{margin-top:45px;padding:0 15%;margin-bottom:50px}header .header__content-wrapper .white-button{margin-bottom:60px}header .header__content-wrapper__link{opacity:.40;font:0.875em "Raleway-Light";color:#fff;text-decoration:underline;-webkit-transition:0.5s;transition:0.5s}header .header__content-wrapper__link:hover{text-decoration:none}@media only screen and (max-width: 1200px){footer .footer-content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}footer .footer-content__menu{padding:50px 0;border-bottom:1px solid #fff;margin-right:0}footer .footer-content__social{padding:50px 0}.text-button{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.text-button__right{width:100%}.text-button__right-wrapper{padding-right:8vmax}.text-button__left{width:100%}.text-button__left-wrapper{padding-left:7vmax}.power__content{padding:50px}.power__content-items{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.power__content-items__itm{margin:0 0 70px 0}.components-content-carts{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.components-content-carts-item{margin:85px 0px 85px 0}.components-content-carts-item-content{padding:50px 40px}.menu-line .menu-line-content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.menu-line .menu-line-content__search{margin-left:0;margin:30px 0}header .header__top-header-content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;text-align:center;padding:45px 0}header .header__top-header-content__logo{margin-bottom:30px}header .header__top-header-content__menu{margin-bottom:30px}header .header__top-header-content__buttons{margin-left:0}header .header__content h1{font-size:2.5em}}@media only screen and (max-width: 992px){.transform-content{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding-bottom:70px}.transform-content__image{display:none}.transform .transform-content__slide .transform-content__slide-text{margin-right:0;width:100%}.clients .clients-content-peoples{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.clients .clients-content-peoples__item{margin:70px 0}.rapture-slider .rapture__slider-wrapper .rapture__slider{display:none}.rapture-slider .rapture-text{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}}@media only screen and (max-width: 768px){.foot-line-content__menu ul li{display:block;text-align:left;padding-left:0;padding-bottom:30px}.components-content-carts-item-content{padding:50px 20px}.menu-line .menu-line-content__menu nav{text-align:center}.menu-line .menu-line-content__menu nav li{display:block;padding-left:0}.menu-line .menu-line-content__search span{display:none}header{padding-bottom:80px}header .header__content-wrapper h4{font-size:1rem}header .header__content-wrapper .white-button{font-size:0.75rem}}@media only screen and (max-width: 480px){.power__content{padding:50px}.power__content-items__itm{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.text-button__left h1,.text-button__right h1{font-size:1.75rem}.menu-line .menu-line-content__search{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.menu-line .menu-line-content__search input[type="text"]{max-width:290px}.menu-line .menu-line-content__search input[type="submit"]{margin-left:0;margin-top:20px}header .header__top-header-content__menu nav ul li{display:block;padding-left:0}header .header__content h1{padding:0}}
+    </style>
+    
+  </head>
+  <body>
+    <header>
+      <div class="header__top-header">
+        <div class="container">
+          <div class="header__top-header-content">
+            <div class="header__top-header-content__logo"><span>The Rapture Startup</span></div>
+            <div class="header__top-header-content__menu">
+              <nav>
+                <ul>
+                  <li><a href="">Features</a></li>
+                  <li><a href="">Pricing </a></li>
+                  <li><a href="">Blog</a></li>
+                  <li><a href="">More</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="header__top-header-content__buttons"><a href="#" class="btn trans">login</a><a href="#" class="btn white">get started</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__content">
+        <div class="container">
+          <div class="header__content-wrapper">
+            <h1 data-wow-duration="1s" class="wow zoomIn">Every Great Business Starts with an Idea</h1><a data-wow-duration="1.3s" data-wow-delay="0.3s" class="white-button wow fadeIn">Start Your Absolutely Free trial</a><a href="" class="header__content-wrapper__link">Already have a Rapture store?</a>
+            <h4 data-wow-duration="1s" data-wow-delay="0.3s" class="wow fadeInUp">The Rapture Startup is the one platform you need to build the business you’ve always dreamed of</h4>
+            <div class="header__content-wrapper__mouse"><a href="#" class="mouse">
+                <div class="scroll"></div></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__opacity"></div>
+    </header>
+    <section class="menu-line">
+      <div class="container">
+        <div class="menu-line-content">
+          <div class="menu-line-content__menu">
+            <nav>
+              <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Testitmonials</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="menu-line-content__search"><span>Stay in Touch</span>
+            <input type="text" placeholder="Subcribe">
+            <input type="submit" value="Submit">
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <section class="rapture-slider">
+    <div class="container">
+      <div class="rapture-slider-content">
+        <div class="rapture-slider-content__heading">
+          <h2 data-wow-duration="0.6s" class="wow fadeInUp">Rapture POS is the easiest way to sell your products at events like fairs, pop ups & markets</h2>
+          <p>Choose and customize your site with over 170+ gorgeous content block types. Build and launch with ease with Rapture.</p>
+        </div>
+      </div>
+      <div class="rapture__slider-wrapper">
+        <div class="owl-carousel">
+          <div class="rapture__slider">
+            <div class="rapture__slider-slide"><img src="img/iphone.png" alt="" class="responsive-img"></div>
+            <div class="rapture__slider-slide"><img src="img/iphone.png" alt="" class="responsive-img"></div>
+            <div class="rapture__slider-slide"><img src="img/iphone.png" alt="" class="responsive-img"></div>
+          </div>
+        </div>
+      </div>
+      <div class="rapture-text">
+        <div class="rapture-text__item">
+          <h6>Accept Payment</h6>
+          <p>After we automatically calculate taxes based on your location you’re ready to accept payment, no third-party payment gateway or merchant account required. </p>
+        </div>
+        <div class="rapture-text__item">
+          <h6>Email Receipt</h6>
+          <p>Don’t worry about printers or hand-writing receipts. Email customizable receipts with added info like promotions or policies.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="components">
+    <div class="container">
+      <div class="components-content">
+        <div class="components-content-head">
+          <p>Components</p>
+          <h2 data-wow-duration="1s" data-wow-delay="0.3s" class="wow fadeInUp">Save money with carefully crafted components to present your business.</h2>
+        </div>
+        <div class="components-content-carts">
+          <div data-wow-duration="1.5s" class="components-content-carts-item wow flipInY">
+            <div class="image"></div>
+            <div class="components-content-carts-item-content">
+              <h5>Get your free UI samples </h5>
+              <p>Sign up for Craftwork to get your free UI samples. No credit card required. Cancel any time.</p><a href="#" class="green-button">Sign Up now for free Sample</a>
+            </div>
+          </div>
+          <div data-wow-duration="1.5s" data-wow-delay="0.5s" class="components-content-carts-item item-mac wow flipInY">
+            <div class="item-mac-content"><img src="img/svg/Mac.svg" alt="" class="responsive-img">
+              <h5>Order your copy of Rapture</h5>
+              <p>Start building your site immediately with any of our 20 beautifully designed and professional templates.</p><a href="#">Order your Copy today</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="clients">
+    <div class="container">
+      <div class="clients-content">
+        <div class="clients-content-head">
+          <p>Client’s Testimonials</p>
+          <h2 data-wow-duration="0.6s" class="wow fadeInUp">Some of the awesome people & companies that love The Rapture Startup</h2>
+        </div>
+      </div>
+      <div class="clients-content-peoples">
+        <div data-wow-delay="0.5s" class="clients-content-peoples__item wow fadeIn">
+          <div class="clients-content-peoples__item-text">
+            <p>Rapture takes the hassle out of going through the feedback on a design, which ultimately speeds up the entire process, something everyone wants.It's a brilliant product.</p>
+          </div>
+          <div class="clients-content-peoples__item-image">
+            <div class="icon icon-cole"></div>
+          </div>
+          <div class="clients-content-peoples__item-name">
+            <h4>Cole Stanley</h4>
+            <p>CEO & Co-Founder OF Evernote</p>
+          </div>
+        </div>
+        <div data-wow-delay="0.7s" class="clients-content-peoples__item wow fadeIn">
+          <div class="clients-content-peoples__item-text">
+            <p>Rapture has made massive improvements when communicating design at TMW. There are usually many stakeholders involved in the process, both internally and externally, and having a simple platform for feedback and approval is extremely helpful. Awesome work guys!</p>
+          </div>
+          <div class="clients-content-peoples__item-image">
+            <div class="icon icon-cambrille"></div>
+          </div>
+          <div class="clients-content-peoples__item-name">
+            <h4>Gabrielle Campbell</h4>
+            <p>Manager at Invision </p>
+          </div>
+        </div>
+        <div data-wow-delay="0.9s" class="clients-content-peoples__item wow fadeIn">
+          <div class="clients-content-peoples__item-text">
+            <p>Easy to use, works great, customizable, and by far, the best support I have experienced.</p>
+          </div>
+          <div class="clients-content-peoples__item-image">
+            <div class="icon icon-Nathainel"></div>
+          </div>
+          <div class="clients-content-peoples__item-name">
+            <h4>Nathaniel Fisher</h4>
+            <p>Designer at Adobe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="transform">
+    <div class="container">
+      <div class="transform-content">
+        <div class="transform-content__text">
+          <h2>Transform your ideas into reality and launch a beautiful site.</h2>
+          <p>14 Day Free Trial. No credit card required.</p>
+        </div>
+        <div class="transform-content__button"><a href="" class="green-button">View All Features</a></div>
+      </div>
+      <div class="transform-content__slide">
+        <div class="transform-content__slide-text">
+          <div data-wow-duration="1s" data-wow-delay="0.3s" class="transform-content__slide-text__item wow fadeInLeft">
+            <h3>Fast Feedback</h3>
+            <p>Put your feedback where there can be no mistake, on the work itself. Track the comments, and own the progress.</p>
+          </div>
+          <div data-wow-duration="1s" data-wow-delay="0.3s" class="transform-content__slide-text__item wow fadeInLeft">
+            <h3>Collaborate</h3>
+            <p> Invite your team, freelancers or clients to collaborate. Get to design sign-off in less time with no misunderstanding.</p>
+          </div>
+          <div data-wow-duration="1s" data-wow-delay="0.3s" class="transform-content__slide-text__item wow fadeInLeft">
+            <h3>Fast Feedback</h3>
+            <p>All the work, comments, and file versions, in one place. Never lose track of feedback in long email chains.</p>
+          </div>
+        </div>
+        <div class="transform-content__image"><img src="img/screen.png" alt="" class="responsive-img"></div>
+      </div>
+    </div>
+  </section>
+  <section class="power">
+    <div class="container">
+      <div class="power__content">
+        <div class="power__content-head">
+          <h2 data-wow-duration="0.6s" class="wow fadeInUp">All the power of Rapture</h2>
+          <p>The world’s fastest-growing startup framework </p>
+        </div>
+        <div class="power__content-items">
+          <div data-wow-delay="0.2s" class="power__content-items__itm wow fadeIn">
+            <div class="power__content-items__itm__image"><img src="img/svg/raptures.svg" alt="" class="responsive-img"></div>
+            <div class="power__content-items__itm__text">
+              <h6>Raptures Payments</h6>
+              <p>Instantly accept all forms of payment hassle-free—no third-party fees or restrictions.</p>
+            </div>
+          </div>
+          <div data-wow-delay="0.4s" class="power__content-items__itm wow fadeIn">
+            <div class="power__content-items__itm__image"><img src="img/svg/anaytics.svg" alt="" class="responsive-img"></div>
+            <div class="power__content-items__itm__text">
+              <h6>Insights and Analytics</h6>
+              <p>Compare stats from all of your sales, explore detailed reports, and discover which products are most popular.</p>
+            </div>
+          </div>
+        </div>
+        <div class="power__content-items">
+          <div data-wow-delay="0.6s" class="power__content-items__itm wow fadeIn">
+            <div class="power__content-items__itm__image"><img src="img/svg/stay.svg" alt="" class="responsive-img"></div>
+            <div class="power__content-items__itm__text">
+              <h6>Raptures Payments</h6>
+              <p>Instantly accept all forms of payment hassle-free—no third-party fees or restrictions.</p>
+            </div>
+          </div>
+          <div data-wow-delay="0.8s" class="power__content-items__itm wow fadeIn">
+            <div class="power__content-items__itm__image"><img src="img/svg/phone.svg" alt="" class="responsive-img"></div>
+            <div class="power__content-items__itm__text">
+              <h6>Insights and Analytics</h6>
+              <p>Compare stats from all of your sales, explore detailed reports, and discover which products are most popular.</p>
+            </div>
+          </div>
+        </div>
+        <div class="power__content-text">
+          <p>Can’t find what you’re looking for?</p><a href="" class="green-button">View All features</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="awesome">
+    <div class="container">
+      <div class="awesome-content">
+        <h1 data-wow-duration="0.6s" class="wow fadeInUp">Create your Awesome Site</h1>
+        <p>Get access and download all the content blocks and templates for Sketch or Photoshop.</p><a class="black-gutton">Start Your free Trial</a>
+      </div>
+    </div>
+  </section>
+  <section class="text-button">
+    <div class="text-button__left">
+      <div class="text-button__left-wrapper">
+        <p>HOW TO GET STARTED SELLING IN PERSON</p>
+        <h1>The Ultimate Guide to Pop-Up Shops</h1><a href="#" class="button-trans">Read The Guide</a>
+      </div>
+    </div>
+    <div class="text-button__right">
+      <div class="text-button__right-wrapper">
+        <p> UPGRADE Rapture TO EASILY SELL IN-STORE</p>
+        <h1>The Rapture Startup for Retail</h1><a href="#" class="button-trans">View Retail Package</a>
+      </div>
+    </div>
+  </section>
+  <section class="foot-line">
+    <div class="container">
+      <div class="foot-line-content">
+        <div class="foot-line-content__menu">
+          <nav>
+            <ul>
+              <li><a href="">About</a></li>
+              <li><a href="">Careers</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Press & Media</a></li>
+              <li><a href="">Enterprise</a></li>
+              <li><a href="">Sitemap</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-content__menu">
+          <h6>Online Store</h6>
+          <ul>
+            <li><a href="">Sell online</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Examples</a></li>
+            <li><a href="">Website editor</a></li>
+            <li><a href="">Online retail</a></li>
+            <li><a href="">Ecommerce website</a></li>
+          </ul>
+        </div>
+        <div class="footer-content__menu nohead">
+          <ul>
+            <li><a href="">Themes</a></li>
+            <li><a href="">Shopping cart</a></li>
+            <li><a href="">Ecommerce hosting</a></li>
+            <li><a href="">Mobile commerce</a></li>
+            <li><a href="">Ecommerce software</a></li>
+          </ul>
+        </div>
+        <div class="footer-content__menu">
+          <h6>Point Of Sale</h6>
+          <ul>
+            <li><a href="">Point of sale</a></li>
+            <li><a href="">Features</a></li>
+            <li><a href="">Hardware</a></li>
+            <li><a href="">Software</a></li>
+          </ul>
+        </div>
+        <div class="footer-content__menu">
+          <h6>Support</h6>
+          <ul>
+            <li><a href="">24/7 Support</a></li>
+            <li><a href="">Help Center</a></li>
+            <li><a href="">Forums</a></li>
+            <li><a href="">API Documentation</a></li>
+            <li> <a href="">Free tools</a></li>
+          </ul>
+        </div>
+        <div class="footer-content__menu">
+          <h6>Rapture</h6>
+          <ul>
+            <li><a href="">Contact</a></li>
+            <li> <a href="">Partner program</a></li>
+            <li><a href="">Affiliate program</a></li>
+            <li><a href="">App developers</a></li>
+            <li><a href="">Investors</a></li>
+            <li><a href="">Blog topics</a></li>
+          </ul>
+        </div>
+        <div class="footer-content__social">
+          <h6>Social Networks</h6>
+          <div class="icons"><a href=""><i class="fa fa-twitter"></i></a><a href=""><i class="fa fa-facebook"></i></a><a href=""><i class="fa fa-google"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <link rel="stylesheet" href="css/main.min.css">
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</html>
