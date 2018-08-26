@@ -14,12 +14,37 @@
 		<meta name="description" content="">
 		<meta name="keywords" content="">
 		<title>Главная</title>
-		<link href="assets/styles/main.min.css?t=1533150336711" rel="stylesheet">
+		<link href="assets/styles/main.min.css?t=1535292613773" rel="stylesheet">
 		<link href="assets/styles/grid.min.css" rel="stylesheet">
 	</head>
 
 	<body>
 		<div class="header">
+			<div class="form">
+				<div id="text-popup" class="form">
+					<div id="modal_form-container"><span id="modal_close-container">X</span>
+						<form>
+							<div>
+								<input type="text" placeholder="Пожалуйста представьтесь" />
+							</div>
+							<div>
+								<input type="text" placeholder="Комментарий" />
+							</div>
+							<div>
+								<label>
+									<input type="checkbox" /><span>Политика конфиденциальности			</span>
+								</label>
+							</div>
+							<div>
+								<button class="red-button">Отправить</button>
+							</div>
+						</form>
+						<button class="red-button route">Проложить маршрут</button>
+						<iframe src="https://yandex.ru/map-widget/v1/-/CBukRIW9LC" width="" height="" frameborder="1" allowfullscreen="true"></iframe>
+					</div>
+					<div id="overlay"></div>
+				</div>
+			</div>
 			<div class="container">
 				<div class="top-header">
 					<div class="row">
@@ -41,7 +66,7 @@
 						</div>
 						<div class="col-xl-5 col-md-12">
 							<div class="location">
-								<img src="assets/images/loc-icon.png" alt="" class="loc-icon img-responsive" /><span>г. МОСКВА, ТПЗ «АЛТУФЬЕВО», пр. АВТОМОБИЛЬНЫЙ, вл. 1, стр. 1</span>
+								<img src="assets/images/location.svg" alt="" class="loc-icon img-responsive" /><span>г. МОСКВА, ТПЗ «АЛТУФЬЕВО», пр. АВТОМОБИЛЬНЫЙ, вл. 1, стр. 1</span>
 							</div>
 						</div>
 					</div>
@@ -65,8 +90,7 @@
 									<div class="phone"><a href="#rel:74957852000" class="link">+7 495 785 2000</a>
 										<p>Телефон многоканальный</p>
 									</div>
-									<div class="button">
-										<button class="red-button">Заказать звонок</button>
+									<div class="button"><a href="" id="g" class="red-button go">Заказать звонок</a>
 									</div>
 								</div>
 							</div>
@@ -75,8 +99,8 @@
 				</div>
 			</div>
 			<div class="header-menu">
-				<div class="row">
-					<ul>
+				<div class="row"><a href="" class="menu-link">Меню</a>
+					<ul class="response-menu">
 						<li><a href="sales.html">ПРОДАЖА АВТОМОБИЛЕЙ</a>
 						</li>
 						<li><a href="#">СЕРВИС</a>
@@ -216,7 +240,7 @@
 			<div class="container">
 				<div class="content">
 					<div class="row">
-						<div class="col-xl-3 col-md-12">
+						<div class="col-xl-2 col-md-12">
 							<div class="footer__info">
 								<img src="assets/images/logotype.png" alt="" />
 								<div class="red-button-class"><a href="" class="red-button">Заказать звонок</a>
@@ -229,8 +253,96 @@
 								<p>График работы: круглосуточно</p>
 							</div>
 						</div>
-						<div class="col-xl-9 col-md-6">
-							<div class="footer__menu"><a href="">Ремонт</a><a href="">Гарантийный ремонт</a><a href="">Запчасти</a><a href="">Сервис</a><a href="">Услуги</a>
+						<div class="col-xl-10 col-md-6">
+							<div class="menu-container">
+								<div class="footer__menu"><a href="">Ремонт</a>
+									<ul>
+										<li> <a href="">Грузовик</a>
+										</li>
+										<li> <a href="">Автобус</a>
+										</li>
+										<li> <a href="">Миксерная установка</a>
+										</li>
+										<li> <a href="">Самосвал</a>
+										</li>
+										<li> <a href="">Тягач	</a>
+										</li>
+										<li> <a href="">Прицепы и полуприцепы</a>
+										</li>
+										<li> <a href="">Складская техника</a>
+										</li>
+										<li> <a href="">Рифрижератор</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer__menu"><a href="">Гарантийный ремонт</a>
+									<ul>
+										<li> <a href="">MAN</a>
+										</li>
+										<li> <a href="">Hyundai</a>
+										</li>
+										<li> <a href="">Cummins</a>
+										</li>
+										<li> <a href="">IVECO</a>
+										</li>
+										<li> <a href="">AVIA</a>
+										</li>
+										<li> <a href="">NINO</a>
+										</li>
+										<li> <a href="">ЯМЗ</a>
+										</li>
+										<li> <a href="">ГАЗ</a>
+										</li>
+										<li> <a href="">МАЗ</a>
+										</li>
+										<li> <a href="">ISUZU</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer__menu"><a href=""> Запчасти</a>
+									<ul>
+										<li> <a href="">MAN</a>
+										</li>
+										<li> <a href="">IVECO</a>
+										</li>
+										<li> <a href="">Nino</a>
+										</li>
+										<li> <a href="">Hyundai</a>
+										</li>
+										<li> <a href="">AVIA</a>
+										</li>
+										<li> <a href="">FAW</a>
+										</li>
+										<li> <a href="">JAC	</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer__menu"><a href=""> Сервис</a>
+									<ul>
+										<li> <a href="">Цех кузовного ремонта</a>
+										</li>
+										<li> <a href="">Слесарный цех</a>
+										</li>
+										<li> <a href="">Линия инструментального контроля</a>
+										</li>
+										<li> <a href="">Покрасочная камера</a>
+										</li>
+										<li> <a href="">Автоматизированная маслоотдача</a>
+										</li>
+										<li> <a href="">Склад запчастей</a>
+										</li>
+									</ul>
+								</div>
+								<div class="footer__menu"><a href=""> Услуги</a>
+									<ul>
+										<li> <a href="">Эвакуация</a>
+										</li>
+										<li> <a href="">Мойка</a>
+										</li>
+										<li> <a href="">Шиномонтаж</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
